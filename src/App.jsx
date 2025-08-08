@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 // import viteLogo from '/vite.svg'
 import { motion } from "framer-motion"
 import './index.css'
-import { universityProjects } from './data/universityProjects';
+import { universityProjects } from './data/universityProjects.jsx';
 import { personalProjectsArray} from './data/personalProjectsArray.jsx';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ContactForm from "./components/ContactForm"; // ajusta la ruta si es necesario
+import ContactForm from "./components/ContactForm.jsx"; // ajusta la ruta si es necesario
 
 import ReactMarkdown from 'react-markdown';
 

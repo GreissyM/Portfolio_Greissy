@@ -1,6 +1,6 @@
 // src/data/universityProjectsData.js (mejor separar datos de componentes)
 import ReactMarkdown from 'react-markdown';
-import descriptions from '../data/uDescriptions.json';
+import descriptions from './uDescriptions.json';
 
 export const universityProjects = [
   {

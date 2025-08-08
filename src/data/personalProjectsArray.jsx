@@ -1,5 +1,5 @@
 import ReactMarkdown from 'react-markdown';
-import descriptions from '../data/uDescriptions.json';
+import descriptions from './uDescriptions.json';
 
 export const personalProjectsArray = [
   {
