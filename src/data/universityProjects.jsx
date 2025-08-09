@@ -224,18 +224,18 @@ export const universityProjects = [
       "/elSilbon/Sil-3.png",
     ],
   },
-  {
-    id: 18,
-    title: "...",
-    asignature: "...", //Música III
-    description: "...Próximamente...",
-    year: "2023",
-    videoUrl: "https://www.youtube.com/embed/...",
-    image: [
-      "/pagConstr.png",
-      "/pagConstr.png",
-    ],
-  },
+  // {
+  //   id: 18,
+  //   title: "...",
+  //   asignature: "...", //Música III
+  //   description: "...Próximamente...",
+  //   year: "2023",
+  //   videoUrl: "https://www.youtube.com/embed/...",
+  //   image: [
+  //     "/pagConstr.png",
+  //     "/pagConstr.png",
+  //   ],
+  // },
   // {
   //   id: 19,
   //   title: "...",
@@ -333,18 +333,18 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  // {
-  //   id: 26,
-  //   title: "...",
-  //   asignature: "...", //Animación I
-  //   description: "...Próximamente...",
-  //   year: "2023",
-  //   videoUrl: "https://www.youtube.com/embed/...",
-  //   image: [
-  //     "/pagConstr.png",
-  //     "/pagConstr.png",
-  //   ],
-  // },
+  {
+    id: 26,
+    title: "...",
+    asignature: "...", //Animación I
+    description: "...Próximamente...",
+    year: "2023",
+    videoUrl: "https://www.youtube.com/embed/...",
+    image: [
+      "/pagConstr.png",
+      "/pagConstr.png",
+    ],
+  },
   // {
   //   id: 27,
   //   title: "...",
