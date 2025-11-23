@@ -1,7 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
 
 export default function ContactForm({ onClose }) {
+
+  const { t } = useTranslation();
+
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleChange = (e) => {
@@ -18,12 +22,12 @@ export default function ContactForm({ onClose }) {
       "Z7xMo6Khcug4KF0SG"       // Public Key
     )
     .then((result) => {
-      alert("¡Gracias por tu mensaje! 😊");
+      alert(t("Form.successMessage"));
       setForm({ name: "", email: "", message: "" });
       onClose(); // Esto oculta el formulario desde el componente padre
   })
     .catch((error) => {
-      alert("❌ Error al enviar el mensaje, intenta de nuevo.");
+      alert(t("Form.errorMessage"));
       console.error(error);
     });
   };
@@ -35,27 +39,27 @@ export default function ContactForm({ onClose }) {
         <button type="button" className="close-button" onClick={onClose}>✕</button>
 
       <label>
-        Nombre:
+        {t("Form.name")}
         <input type="text" name="name" placeholder="Tu nombre"
         value={form.name}
         onChange={handleChange} required />
       </label>
 
       <label>
-        Email:
-        <input type="email" name="email" placeholder="Tu email"
+        {t("Form.email")}
+        <input type="email" name="email" placeholder="Tu correo electrónico"
         value={form.email}
         onChange={handleChange} required />
       </label>
 
       <label>
-        Mensaje:
+        {t("Form.message")}
         <textarea name="message" rows="4" placeholder="Escribe tu mensaje"
         value={form.message}
         onChange={handleChange} required></textarea>
       </label>
 
-      <button type="submit" className="submit-button">Enviar</button>
+      <button type="submit" className="submit-button">{t("Form.sendButton")}</button>
 
     </form>
     </div>

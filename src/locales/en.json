@@ -34,5 +34,26 @@
         "title1": "University Projects Gallery",
         "asig": "Asignature: ",
         "backHome": "Back to Home"
+    },
+        "Form": {
+        "name": "Name:",
+        "email": "e-mail:",
+        "message": "Message:",
+        "sendButton": "Send",
+        "successMessage": "Thanks for your message! 😊",
+        "errorMessage": "❌ Error sending the message, please try again."
+    },
+        "AC": {
+        "titleS1": "Musical Experimentation",
+        "titleS2": "Soundscape",
+        "titleS3": "OTS videogame",
+        "cat1": "Music Production",
+        "cat2": "Film",
+        "cat3": "Video Games"
+    },
+        "PP": {
+        "descrip1": "360° video short film.\n\n_**Headphones are recommended**_",
+        "descrip2": "Immersive Mix.\n\n_**Headphones are recommended**_",
+        "descrip3": "Sound logo and animation for the chess social club _Torre Blanca_."
     }
 }

@@ -49,9 +49,9 @@ export default function Portfolio() {
   const [playing, setPlaying] = useState(null);
 
   const audioClips = [
-    { title: "Experimentación musical", embedURL: "https://api.soundcloud.com/tracks/2149550613%3Fsecret_token%3Ds-mNfZyIDmM6O", category: "Producción Musical" },
-    { title: "Atmósferas Sonoras", embedURL: "https://api.soundcloud.com/tracks/2149512714%3Fsecret_token%3Ds-pYE0chbuG1y", category: "Cine" },
-    { title: "Loop para Videojuegos", embedURL: "https://api.soundcloud.com/tracks/2149551441%3Fsecret_token%3Ds-cuIXV2B4w08", category: "Videojuegos" },
+    { title: t("AC.titleS1"), embedURL: "https://api.soundcloud.com/tracks/2149550613%3Fsecret_token%3Ds-mNfZyIDmM6O", category: t("AC.cat1") },
+    { title: t("AC.titleS2"), embedURL: "https://api.soundcloud.com/tracks/2149512714%3Fsecret_token%3Ds-pYE0chbuG1y", category: t("AC.cat2") },
+    { title: t("AC.titleS3"), embedURL: "https://api.soundcloud.com/tracks/2149551441%3Fsecret_token%3Ds-cuIXV2B4w08", category: t("AC.cat3") },
   ];
 
   const handlePlayPause = (index) => {
@@ -121,7 +121,7 @@ export default function Portfolio() {
               >
                 <img src={`/proyecto-${projects.id}.png`} alt={`Proyecto ${projects.title}`} className="project-image" />
                 <h3 className='asignatura'>{projects.title}</h3>
-                <div className='description'><ReactMarkdown>{projects.description}</ReactMarkdown></div>
+                <div className='description'><ReactMarkdown>{t(projects.description)}</ReactMarkdown></div>
               </motion.div>
             ))}
         </div>
@@ -160,7 +160,7 @@ export default function Portfolio() {
                 controls
               /> */}
 
-            <iframe width="80%" height="120" scrolling="no" frameborder="no" allow="autoplay"
+            <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
               // src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2149512714%3Fsecret_token%3Ds-pYE0chbuG1y&color=%2384a4ec&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
               src={`https://w.soundcloud.com/player/?url=${encodeURIComponent(audioClips[playing].embedURL)}&color=%2384a4ec&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`}>
             </iframe>
@@ -188,7 +188,15 @@ export default function Portfolio() {
           en la orquesta especializada en música de videojuegos <i>Corear</i>. */}
         </p>
         <div className="section"><h3 className="about-text">{t("App.formacion")}</h3>
-          <a href='/Diseñadora Sonora_2025.pdf' target='_blank'><h3 className="about-text">CV</h3></a>
+          <h3 className="about-text">ATS & CV</h3>
+          <div className="about-text">
+          <a href='./CV/ATS_EN-2025.pdf' target='_blank'>
+            <img src="./CV/ATS.png" alt="ATS" width="200" height="150" />
+          </a>
+          <a href='./CV/CV_EN-2025.pdf' target='_blank'>
+            <img src="./CV/CV.png" alt="CV" width="200" height="150" />
+          </a>
+          </div>
         </div>
 
       </section>

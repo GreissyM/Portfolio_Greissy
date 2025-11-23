@@ -34,5 +34,26 @@
         "title1": "Galería de Proyectos Universitarios",
         "asig": "Asignatura: ",
         "backHome": "Volver al inicio"
+    },
+    "Form": {
+        "name": "Nombre:",
+        "email": "e-mail:",
+        "message": "Mensaje:",
+        "sendButton": "Enviar",
+        "successMessage": "¡Gracias por tu mensaje! 😊",
+        "errorMessage": "❌ Error al enviar el mensaje, por favor inténtalo de nuevo."
+    },
+    "AC": {
+        "titleS1": "Experimentación musical",
+        "titleS2": "Atmósfera Sonora",
+        "titleS3": "OTS videojuego",
+        "cat1": "Producción Musical",
+        "cat2": "Cine",
+        "cat3": "Videojuegos"
+    },
+    "PP": {
+        "descrip1": "Cortometraje en vídeo 360.\n\n_**Se recomienda usar auriculares**_",
+        "descrip2": "Mezcla Inmersiva.\n\n_**Se recomienda usar auriculares**_",
+        "descrip3": "Logo sonoro y animación para el club social de ajedrez _Torre Blanca_."
     }
 }
