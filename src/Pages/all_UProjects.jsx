@@ -1,29 +1,36 @@
 // src/pages/all_UProjects.jsx
 import React, { useState } from 'react';
+import { useTranslation } from "react-i18next";
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import {universityProjects} from '../data/universityProjects.jsx'; // asegúrate de tener los datos
+import { universityProjects } from '../data/universityProjects.jsx'; // asegúrate de tener los datos
 import "../index.css";
 import ReactMarkdown from 'react-markdown';
 
-  
+
 const AllUProjects = () => {
 
+  const { t, i18n } = useTranslation();
+
+  const changeLang = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
   const [selectedVideo, setSelectedVideo] = useState(null);
-  
+
   const [isModalOpen, setIsModalOpen] = useState(false);
-  
+
   const openModal = (videoUrl) => {
     setSelectedVideo(videoUrl);
     setIsModalOpen(true);
   };
-  
+
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedVideo(null);
   };
-  
+
   const settings = {
     dots: false,
     infinite: true,
@@ -35,7 +42,7 @@ const AllUProjects = () => {
 
   return (
     <section className="AllProjectsPage">
-      <h2 className="section-title">Galería de Proyectos Universitarios</h2>
+      <h2 className="section-title">{t("GUP.title1")}</h2>
       <div className="project-grid-extended">
         {universityProjects.map((projectU) => (
           <motion.div
@@ -45,28 +52,28 @@ const AllUProjects = () => {
             onClick={() => openModal(projectU.videoUrl)}
           >
             {Array.isArray(projectU.image) && projectU.image.length > 0 ? (
-            <Slider {...settings}>
-              {projectU.image.map((img, idx) => (
-                <div key={idx}>
-                  <img
-                    src={img}
-                    alt={`Imagen ${idx + 1} de ${projectU.title}`}
-                    className="project-image"
-                  />
-                </div>
-              ))}
-            </Slider>
+              <Slider dots={false} infinite={true} speed={500} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={3000} arrows={false}>
+                {projectU.image.map((img, idx) => (
+                  <div key={idx}>
+                    <img
+                      src={img}
+                      alt={`Imagen ${idx + 1} de ${projectU.title}`}
+                      className="project-image"
+                    />
+                  </div>
+                ))}
+              </Slider>
             ) : (
-            <img src={projectU.image} alt={projectU.title} className="project-image" />
+              <img src={projectU.image} alt={projectU.title} className="project-image" />
             )}
-            <h3>Proyecto {projectU.id}: "{projectU.title}"</h3>
-            <h4 className='asignatura'>Asignatura: {projectU.asignature}</h4>
-            <div className='description'><ReactMarkdown>{projectU.description}</ReactMarkdown></div>
+            <h3>{t("App.subtitle3")}{projectU.id}: "{projectU.title}"</h3>
+            <h4 className='asignatura'>{t("GUP.asig")}{projectU.asignature}</h4>
+            <div key={i18n.language} className='description' ><ReactMarkdown>{t(projectU.description)}</ReactMarkdown></div>
           </motion.div>
         ))}
       </div>
 
-              {/* MODAL */}
+      {/* MODAL */}
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal-content">
@@ -83,7 +90,11 @@ const AllUProjects = () => {
       )}
 
       <div className="button-container">
-      <Link to="/" className="go-back-button">← Volver a Inicio</Link>
+        {/* <Link to="/" className="go-back-button">← Volver a Inicio</Link> */}
+        <Link onClick={(e) => {
+          e.preventDefault();
+          window.history.back();
+        }} className="button">← {t("GUP.backHome")}</Link>
       </div>
     </section>
   );

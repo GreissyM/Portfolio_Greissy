@@ -1,0 +1,38 @@
+{
+    "App": {
+        "title": "Diseño Sonoro y Musicalización",
+        "subtitle": "Transformo ideas en experiencias sonoras inolvidables",
+        "button_1": "Explorar mi trabajo",
+        "spec1": "Diseño Sonoro",
+        "spec2": "Musicalización",
+        "spec3": "Producción Musical",
+        "spec4": "Branding Sonoro",
+        "title2": "Proyectos Destacados",
+        "title3": "Galería de Audio",
+        "subtitle2": "Categoría: ",
+        "playButton": "Reproducir",
+        "stopButton": "Detener",
+        "title4": "Sobre mí",
+        "aboutMe": "Greissy es una diseñadora sonora y músico especializada en transformar ideas en piezas sonoras para cine, videojuegos y publicidad. Su musicalidad y creación de experiencias sonoras inmersivas se caracterizan por su personalidad y engagement. Con formación en creación sonora y técnicas en sonido y grabación, logra una mirada sensible e interdisciplinaria combinando arte, tecnología y narrativa para construir paisajes sonoros memorables. \n\n Su trabajo se enfoca en el diseño sonoro para videojuegos, entornos interactivos (UX/UI) y cine, con un enfoque estético que equilibra emoción, funcionalidad y profundidad narrativa. Maneja herramientas digitales acordes con la disciplina como los DAW Reaper y Ableton Live, y va más allá trabajando también con herramientas visuales como Premiere, After Effect, Krita, entre otros. \n\n Su formación musical inició a temprana edad, permitiéndole experimentar con distintos instrumentos y profesionalizarse en el piano y la mandolina, desempeñándose como ejecutante en agrupaciones y orquestas. Actualmente participa como técnico de sonido en la orquesta especializada en música de videojuegos Corear.",
+        "formacion": "Formación profesional: Técnico en Sonido y Grabación",
+        "tittle5": "Portfolio Universitario",
+        "subtitle3": "Proyecto ",
+        "subtitle4": "Asignatura: ",
+        "projectButton": "...más proyectos...",
+        "title6": "Contact",
+        "mensaje": "¿Tienes un proyecto? ¡Hablemos!😄",
+        "button2": "Contacto",
+        "footerText": "© 2024 Greissy Melissa Ochoa.\n C.A.B.A, Argentina\n All rights reserved."
+    },
+    "UP": {
+        "TCS1": "En este proyecto se destaca la elaboración de un diseño sonoro que conecta con un ambiente emocional, acompañado de imágenes acordes a la narrativa a transmitir. Está inspirado en el poema de Mario Benedetti “Hombre preso que mira a su hijo”, del cual se extraen algunos fragmentos acompañados de una banda sonora y efectos sonoros, representando el concepto emocional e histórico a transmitir con capturas tomadas en el Parque de La Memoria y secciones del largometraje La Noche de los Lápices de Héctor Olivera. \n\n **Proyecto grupal - 2022** \n\n _Principales funciones: diseño de sonido, edición y montaje, guion, ejecución como mandolinista, rodaje de las tomas originales, mezcla y masterización._",
+        "TCS5": "Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual, audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror. \n\n **Proyecto individual - 2024**",
+        "PM2": "En el presente se abordaron recursos, herramientas y habilidades para la realización de un evento musical online bajo tres ejes principales: Britpop, Surrealismo y Solidaridad. Inspirado en el disco Yellow Submarine de la agrupación Los Beatles, se busca conectar la música con el arte surrealista. El evento se enmarcó como centro de recaudación y apoyo a la  Fundación Brincar, quienes brindan un espacio de orientación para las personas dentro del espectro autista.\n\n **Proyecto grupal - 2023** \n\n_Principales funciones: productora, coordinadora, guionista, fotógrafa, editora, co-directora de arte y directora general._",
+        "Anim2": "Esta propuesta aborda la revalorización de una marca mediante la construcción de un diferencial emocional que la acerque nuevamente al público joven, incorporando elementos presentes en sus modos actuales de entretenimiento. El trabajo incluye la variación y animación del logotipo del evento, la creación de un logo sonoro, la musicalización y el diseño sonoro. Asimismo, se desarrolló un webtoon animado en After Effects, complementado con material audiovisual generado mediante herramientas de inteligencia artificial. \n\n **Proyecto individual - 2025**"
+    },
+    "GUP": {
+        "title1": "Galería de Proyectos Universitarios",
+        "asig": "Asignatura: ",
+        "backHome": "Volver al inicio"
+    }
+}

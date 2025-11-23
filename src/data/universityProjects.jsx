@@ -1,24 +1,26 @@
 // src/data/universityProjectsData.js (mejor separar datos de componentes)
 import ReactMarkdown from 'react-markdown';
 import descriptions from './uDescriptions.json';
+import { useTranslation } from "react-i18next";
+import '../Pages/AllUProjects.css';
 
 export const universityProjects = [
   {
     id: 1,
     title: "Nunca Olvides",
-    asignature: "Taller de Creación Sonora I",
+    asignature: `\nTaller de Creación Sonora I\n (Sound Creation Workshop I)`,
     // description: descriptions["1"],
-    description:
-    `En este proyecto se destaca la elaboración de un diseño sonoro que conecta 
-    con un ambiente emocional, acompañado de imágenes acordes a la narrativa a transmitir. 
-    Está inspirado en el poema de Mario Benedetti “Hombre preso que mira a su hijo”, del 
-    cual se extraen algunos fragmentos acompañados de una banda sonora y efectos sonoros, 
-    representando el concepto emocional e histórico a transmitir con capturas tomadas en el 
-    Parque De La Memoria y secciones del largometraje La Noche De Los Lápices de Héctor Olivera.
-    \n\n**Proyecto grupal - 2022**
-    \n_Principales funciones: diseño de sonido, edición y montaje, guion, ejecución como mandolinista, 
-    rodaje de las tomas originales, mezcla y masterización._`,
-    year: "2022",
+    description: "UP.TCS1",
+    // `En este proyecto se destaca la elaboración de un diseño sonoro que conecta 
+    // con un ambiente emocional, acompañado de imágenes acordes a la narrativa a transmitir. 
+    // Está inspirado en el poema de Mario Benedetti “Hombre preso que mira a su hijo”, del 
+    // cual se extraen algunos fragmentos acompañados de una banda sonora y efectos sonoros, 
+    // representando el concepto emocional e histórico a transmitir con capturas tomadas en el 
+    // Parque De La Memoria y secciones del largometraje La Noche De Los Lápices de Héctor Olivera.
+    // \n\n**Proyecto grupal - 2022**
+    // \n_Principales funciones: diseño de sonido, edición y montaje, guion, ejecución como mandolinista, 
+    // rodaje de las tomas originales, mezcla y masterización._`,
+    // year: "2022",
     videoUrl: "https://www.youtube.com/embed/xZUo3UF-Yi0",
     image: [
       "/nuncaOlvides/projectU-1.png",
@@ -206,16 +208,16 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 17,
+    id: 2,
     title: "El Silbón",
-    asignature: "Taller de Creación Sonora V",
-    description: 
-    `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
-    En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
-    audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
-    de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
-    como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
-    \n\n**Proyecto individual - 2024**`,
+    asignature: "\nTaller de Creación Sonora V \n(Sound Creation Workshop V)",
+    description: "UP.TCS5",
+    // `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
+    // En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
+    // audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
+    // de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
+    // como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
+    // \n\n**Proyecto individual - 2024**`,
     year: "2025",
     videoUrl: "https://www.youtube.com/embed/QE1mvikSfno?si=I2c3H7eOgDOdHPc_",
     image: [
@@ -285,18 +287,18 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 23,
+    id: 3,
     title: "Viajeros del Submarino",
-    asignature: "Producción Musical II",
-    description: 
-    `En el presente se abordaron recursos, herramientas y habilidades para la realización de un evento musical 
-    online bajo tres ejes principales: Britpop, Surrealismo y Solidaridad. Inspirado en el disco Yellow Submarine 
-    de la agrupación Los Beatles, se busca conectar la música con el arte surrealista. El evento se enmarcó como 
-    centro de recaudación y apoyo a la  Fundación Brincar, quienes brindan un espacio de orientación para las 
-    personas dentro del espectro autista.
-    \n\n**Proyecto grupal - 2023**
-    \n\n_Principales funciones: productora, coordinadora, guionista, fotógrafa, editora, co-directora de arte y 
-    directora general._`,
+    asignature: "\n Producción Musical II \n (Musical Production II)",
+    description: "UP.PM2",
+    // `En el presente se abordaron recursos, herramientas y habilidades para la realización de un evento musical 
+    // online bajo tres ejes principales: Britpop, Surrealismo y Solidaridad. Inspirado en el disco Yellow Submarine 
+    // de la agrupación Los Beatles, se busca conectar la música con el arte surrealista. El evento se enmarcó como 
+    // centro de recaudación y apoyo a la  Fundación Brincar, quienes brindan un espacio de orientación para las 
+    // personas dentro del espectro autista.
+    // \n\n**Proyecto grupal - 2023**
+    // \n\n_Principales funciones: productora, coordinadora, guionista, fotógrafa, editora, co-directora de arte y 
+    // directora general._`,
     year: "2023",
     videoUrl: "https://www.youtube.com/embed/hL6A8o8mKPI?si=t82wqCYG8kGCLSYE",
     image: [
@@ -333,18 +335,18 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  {
-    id: 26,
-    title: "...",
-    asignature: "...", //Animación I
-    description: "...Próximamente...",
-    year: "2023",
-    videoUrl: "https://www.youtube.com/embed/...",
-    image: [
-      "/pagConstr.png",
-      "/pagConstr.png",
-    ],
-  },
+  // {
+  //   id: 26,
+  //   title: "...",
+  //   asignature: "Animación I \n (Principles of Animation I)", //Animación I
+  //   description: "...Próximamente...",
+  //   year: "2023",
+  //   videoUrl: "https://www.youtube.com/embed/...",
+  //   image: [
+  //     "/pagConstr.png",
+  //     "/pagConstr.png",
+  //   ],
+  // },
   // {
   //   id: 27,
   //   title: "...",
@@ -381,30 +383,36 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  // {
-  //   id: 30,
-  //   title: "...",
-  //   asignature: "Animación II",
-  //   description: "...Próximamente...",
-  //   year: "2023",
-  //   videoUrl: "https://www.youtube.com/embed/...",
-  //   image: [
-  //     "/pagConstr.png",
-  //     "/pagConstr.png",
-  //   ],
-  // },
-  // {
-  //   id: 31,
-  //   title: "...",
-  //   asignature: "Medios Digitales I",
-  //   description: "...Próximamente...",
-  //   year: "2023",
-  //   videoUrl: "https://www.youtube.com/embed/...",
-  //   image: [
-  //     "/pagConstr.png",
-  //     "/pagConstr.png",
-  //   ],
-  // },
+  {
+    id: 4, //30
+    title: "Baires Rocks Mandolin Challenge",
+    asignature: "Animación II \n (Principles of Animation II)",
+    description: "UP.Anim2",
+    // "Esta propuesta aborda la revalorización de una marca mediante la construcción de un diferencial emocional que la acerque nuevamente al público joven, incorporando elementos presentes en sus modos actuales de entretenimiento. El trabajo incluye la variación y animación del logotipo del evento, la creación de un logo sonoro, la musicalización y el diseño sonoro. Asimismo, se desarrolló un webtoon animado en After Effects, complementado con material audiovisual generado mediante herramientas de inteligencia artificial.",
+    year: "2023",
+    videoUrl: "https://www.youtube.com/embed/LlF2zcGq7pY?si=aJXUgt1mhnwkYtA6",
+    image: [
+      "/Anim_II/BR.png",
+      "/Anim_II/1.png",
+      "/Anim_II/4.png",
+      "/Anim_II/5.png",
+      "/Anim_II/6.png",
+      "/Anim_II/7.png",
+      "/Anim_II/8.png",
+    ],
+  },
+  {
+    id: 5, //31
+    title: "...",
+    asignature: "...", //Medios Digitales I
+    description: "...Próximamente...",
+    year: "2023",
+    videoUrl: "https://www.youtube.com/embed/...",
+    image: [
+      "/pagConstr.png",
+      "/pagConstr.png",
+    ],
+  },
   // {
   //   id: 32,
   //   title: "...",
