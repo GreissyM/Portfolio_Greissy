@@ -35,7 +35,7 @@
         "asig": "Asignature: ",
         "backHome": "Back to Home"
     },
-        "Form": {
+    "Form": {
         "name": "Name:",
         "email": "e-mail:",
         "message": "Message:",
@@ -43,7 +43,7 @@
         "successMessage": "Thanks for your message! 😊",
         "errorMessage": "❌ Error sending the message, please try again."
     },
-        "AC": {
+    "AC": {
         "titleS1": "Musical Experimentation",
         "titleS2": "Soundscape",
         "titleS3": "OTS videogame",
@@ -51,7 +51,10 @@
         "cat2": "Film",
         "cat3": "Video Games"
     },
-        "PP": {
+    "PP": {
+        "title1": "Shadows of the Secret",
+        "title2": "Orchestra Corear",
+        "title3": "Torre Blanca Chess Club",
         "descrip1": "360° video short film.\n\n_**Headphones are recommended**_",
         "descrip2": "Immersive Mix.\n\n_**Headphones are recommended**_",
         "descrip3": "Sound logo and animation for the chess social club _Torre Blanca_."

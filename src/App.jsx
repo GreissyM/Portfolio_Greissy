@@ -120,7 +120,7 @@ export default function Portfolio() {
                 onClick={() => openModal(projects.videoUrl)}
               >
                 <img src={`/proyecto-${projects.id}.png`} alt={`Proyecto ${projects.title}`} className="project-image" />
-                <h3 className='asignatura'>{projects.title}</h3>
+                <h3 className='asignatura'>{t(projects.title)}</h3>
                 <div className='description'><ReactMarkdown>{t(projects.description)}</ReactMarkdown></div>
               </motion.div>
             ))}

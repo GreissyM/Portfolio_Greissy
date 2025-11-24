@@ -5,7 +5,7 @@ import descriptions from './uDescriptions.json';
 export const personalProjectsArray = [
   {
     id: 1,
-    title: "Sombras del secreto",
+    title: "PP.title1",
     asignature: "Proyecto Multimedial I",
     description: "PP.descrip1",
     // `Cortometraje en vídeo 360.
@@ -19,8 +19,8 @@ export const personalProjectsArray = [
   },
   {
     id: 2,
-    title: "Orquesta Sinfónica Corear",
-    asignature: "Orquesta Sinfónica Corear",
+    title: "PP.title2",
+    asignature: "Orquesta Corear",
     description: "PP.descrip2",
     // `Mezcla Inmersiva.
     // \n\n_**Se recomienda usar auriculares**_`,
@@ -33,7 +33,7 @@ export const personalProjectsArray = [
   },
   {
     id: 3,
-    title: "Torre Blanca",
+    title: "PP.title3",
     asignature: "Diseño e imagen de marca",
     description: "PP.descrip3",
     // `Logo sonoro y animación para el club social de ajedrez _Torre Blanca_.`,

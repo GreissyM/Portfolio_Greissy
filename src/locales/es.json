@@ -52,8 +52,11 @@
         "cat3": "Videojuegos"
     },
     "PP": {
+        "title1": "Sombras del secreto",
+        "title2": "Orquesta Corear",
+        "title3": "Torre Blanca Club de Ajedrez",
         "descrip1": "Cortometraje en vídeo 360.\n\n_**Se recomienda usar auriculares**_",
-        "descrip2": "Mezcla Inmersiva.\n\n_**Se recomienda usar auriculares**_",
+        "descrip2": "Mezcla Inmersiva en ambisonic.\n\n_**Se recomienda usar auriculares**_",
         "descrip3": "Logo sonoro y animación para el club social de ajedrez _Torre Blanca_."
     }
 }
