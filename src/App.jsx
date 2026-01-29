@@ -179,23 +179,23 @@ export default function Portfolio() {
           sonoras inmersivas se caracterizan por su personalidad y engagement. Con formación en
           creación sonora y técnicas en sonido y grabación, logra una mirada sensible e interdisciplinaria
           combinando arte, tecnología y narrativa para construir paisajes sonoros memorables. Su trabajo se
-          enfoca en el diseño sonoro para videojuegos, entornos interactivos (UX/UI) y cine, con un enfoque
+          enfoca en el diseño sonoro para videojuegos, entornos interactivos y cine, con un enfoque
           estético que equilibra emoción, funcionalidad y profundidad narrativa. Maneja herramientas digitales
-          acordes con la disciplina como los DAW Reaper y Ableton Live, e incurre más allá dominando herramientas
+          acordes con la disciplina enfocada principalmente en Reaper, e incurre más allá dominando herramientas
           visuales como Premiere, After Effect, Krita, entre otros. Su formación musical inició a temprana edad,
           permitiéndole experimentar con distintos instrumentos y profesionalizarse en el piano y la mandolina,
           desempeñándose como ejecutante en agrupaciones y orquestas. Actualmente participa como técnico de sonido
-          en la orquesta especializada en música de videojuegos <i>Corear</i>. */}
+          y grabación en una orquesta dedicada a música para videojuegos. */}
         </p>
         <div className="section"><h3 className="about-text">{t("App.formacion")}</h3>
-          <h3 className="about-text">ATS & CV</h3>
+          <h3 className="about-text">Resume</h3>
           <div className="about-text">
-          <a href='./CV/ATS_EN-2025.pdf' target='_blank'>
+          <a href='./CV/ATS_EN-2026.pdf' target='_blank'>
             <img src="./CV/ATS.png" alt="ATS" width="200" height="150" />
           </a>
-          <a href='./CV/CV_EN-2025.pdf' target='_blank'>
+          {/* <a href='./CV/CV_EN-2025.pdf' target='_blank'>
             <img src="./CV/CV.png" alt="CV" width="200" height="150" />
-          </a>
+          </a> */}
           </div>
         </div>
 
