@@ -82,21 +82,22 @@ export default function Portfolio() {
       <section className="video-banner">
 
         <div className="video-wrapper">
-          <video autoPlay muted loop playsInline className="video-bg">
+          {/* <video autoPlay muted loop playsInline className="video-bg">
             <source src="/CCK_2024.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta video.
-          </video>
+          </video> */}
+          <img src="/Foto_Meli2.png" alt="" className="video-bg"/>
         </div>
 
         <div className="banner-text">
           <h1>{t("App.title")}</h1>
           <p>{t("App.subtitle")}</p>
-          <a href="#especialidades" className="button">{t("App.button_1")}</a>
+          <a href="#personal-Projects" className="button">{t("App.button_1")}</a>
         </div>
       </section>
 
       {/* Especialidades */}
-      <section id="especialidades" className="section-grid">
+      {/* <section id="especialidades" className="section-grid">
         {[t("App.spec1"), t("App.spec2"), t("App.spec3"), t("App.spec4")].map((item, index) => (
           <div key={index} className="card"
             onMouseEnter={() => handleMouseEnter(index)}
@@ -104,7 +105,7 @@ export default function Portfolio() {
             <h2>{item}</h2>
           </div>
         ))}
-      </section>
+      </section> */}
 
       {/* Proyectos Destacados */}
       <section id="personal-Projects" className="section">
