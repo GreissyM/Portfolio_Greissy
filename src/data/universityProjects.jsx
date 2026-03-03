@@ -207,25 +207,25 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  {
-    id: 2,
-    title: "El Silbón",
-    asignature: "\nTaller de Creación Sonora V \n(Sound Creation Workshop V)",
-    description: "UP.TCS5",
-    // `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
-    // En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
-    // audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
-    // de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
-    // como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
-    // \n\n**Proyecto individual - 2024**`,
-    year: "2025",
-    videoUrl: "https://www.youtube.com/embed/QE1mvikSfno?si=I2c3H7eOgDOdHPc_",
-    image: [
-      "/elSilbon/Sil-1.png",
-      "/elSilbon/Sil-2.png",
-      "/elSilbon/Sil-3.png",
-    ],
-  },
+  // {
+  //   id: 17,
+  //   title: "El Silbón",
+  //   asignature: "\nTaller de Creación Sonora V \n(Sound Creation Workshop V)",
+  //   description: "UP.TCS5",
+  //   // `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
+  //   // En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
+  //   // audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
+  //   // de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
+  //   // como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
+  //   // \n\n**Proyecto individual - 2024**`,
+  //   year: "2025",
+  //   videoUrl: "https://www.youtube.com/embed/QE1mvikSfno?si=I2c3H7eOgDOdHPc_",
+  //   image: [
+  //     "/elSilbon/Sil-1.png",
+  //     "/elSilbon/Sil-2.png",
+  //     "/elSilbon/Sil-3.png",
+  //   ],
+  // },
   // {
   //   id: 18,
   //   title: "...",
@@ -287,7 +287,7 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 3,
+    id: 2,
     title: "Viajeros del Submarino",
     asignature: "\n Producción Musical II \n (Musical Production II)",
     description: "UP.PM2",
@@ -335,18 +335,21 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  // {
-  //   id: 26,
-  //   title: "...",
-  //   asignature: "Animación I \n (Principles of Animation I)", //Animación I
-  //   description: "...Próximamente...",
-  //   year: "2023",
-  //   videoUrl: "https://www.youtube.com/embed/...",
-  //   image: [
-  //     "/pagConstr.png",
-  //     "/pagConstr.png",
-  //   ],
-  // },
+  {
+    id: 3,
+    title: "Juanpi, el pingüino yerbatero",
+    asignature: "Animación I \n (Principles of Animation I)", //Animación I
+    description: "UP.Anim1",
+    // "Proyecto integrador desarrollado en el marco de la materia Animación I.\n\nSu realización consistió en diseñar un personaje y su entorno a partir de la canción Yerbatero de Juanes, para luego realizar una animación rítmica, coherente y con narrativa propia. En este contexto, se decidió combinar las connotaciones del término _yerbatero_: por un lado, su sentido en Colombia, vinculado a los saberes curativos y lo místico; y por otro, su significado en Argentina, asociado a la elaboración de la yerba mate. Asimismo, se desarrolló el diseño sonoro para enriquecer y potenciar la narrativa.\n\n**Proyecto individual - 2023**",
+    year: "2023",
+    videoUrl: "https://www.youtube.com/embed/ILhYDwaP7Oc?si=wJOXkmYLavkNBT8F&amp;start=4",
+    image: [
+      "/Anim_I/JuanPingüi1.png",
+      "/Anim_I/JuanPingüi2.png",
+      "/Anim_I/JuanPingüi3.png",
+      "/Anim_I/JuanPingüi4.png",
+    ],
+  },
   // {
   //   id: 27,
   //   title: "...",
@@ -401,18 +404,18 @@ export const universityProjects = [
       "/Anim_II/8.png",
     ],
   },
-  {
-    id: 5, //31
-    title: "...",
-    asignature: "...", //Medios Digitales I
-    description: "...Próximamente...",
-    year: "2023",
-    videoUrl: "https://www.youtube.com/embed/...",
-    image: [
-      "/pagConstr.png",
-      "/pagConstr.png",
-    ],
-  },
+  // {
+  //   id: 5, //31
+  //   title: "...",
+  //   asignature: "...", //Medios Digitales I
+  //   description: "...Próximamente...",
+  //   year: "2023",
+  //   videoUrl: "https://www.youtube.com/embed/...",
+  //   image: [
+  //     "/pagConstr.png",
+  //     "/pagConstr.png",
+  //   ],
+  // },
   // {
   //   id: 32,
   //   title: "...",

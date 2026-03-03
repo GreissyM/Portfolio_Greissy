@@ -28,6 +28,7 @@
         "TCS1": "En este proyecto se destaca la elaboración de un diseño sonoro que conecta con un ambiente emocional, acompañado de imágenes acordes a la narrativa a transmitir. Está inspirado en el poema de Mario Benedetti “Hombre preso que mira a su hijo”, del cual se extraen algunos fragmentos acompañados de una banda sonora y efectos sonoros, representando el concepto emocional e histórico a transmitir con capturas tomadas en el Parque de La Memoria y secciones del largometraje La Noche de los Lápices de Héctor Olivera. \n\n **Proyecto grupal - 2022** \n\n _Principales funciones: diseño de sonido, edición y montaje, guion, ejecución como mandolinista, rodaje de las tomas originales, mezcla y masterización._",
         "TCS5": "Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual, audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror. \n\n **Proyecto individual - 2024**",
         "PM2": "En el presente se abordaron recursos, herramientas y habilidades para la realización de un evento musical online bajo tres ejes principales: Britpop, Surrealismo y Solidaridad. Inspirado en el disco Yellow Submarine de la agrupación Los Beatles, se busca conectar la música con el arte surrealista. El evento se enmarcó como centro de recaudación y apoyo a la  Fundación Brincar, quienes brindan un espacio de orientación para las personas dentro del espectro autista.\n\n **Proyecto grupal - 2023** \n\n_Principales funciones: productora, coordinadora, guionista, fotógrafa, editora, co-directora de arte y directora general._",
+        "Anim1": "Proyecto integrador desarrollado en el marco de la materia Animación I. Su realización consistió en diseñar un personaje y su entorno a partir de la canción Yerbatero de Juanes, para luego realizar una animación rítmica, coherente y con narrativa propia. En este contexto, se decidió combinar las connotaciones del término _yerbatero_: por un lado, su sentido en Colombia, vinculado a los saberes curativos y lo místico; y por otro, su significado en Argentina, asociado a la elaboración de la yerba mate. Asimismo, se desarrolló el diseño sonoro para enriquecer y potenciar la narrativa.\n\n**Proyecto individual - 2023**",
         "Anim2": "Esta propuesta aborda la revalorización de una marca mediante la construcción de un diferencial emocional que la acerque nuevamente al público joven, incorporando elementos presentes en sus modos actuales de entretenimiento. El trabajo incluye la variación y animación del logotipo del evento, la creación de un logo sonoro, la musicalización y el diseño sonoro. Asimismo, se desarrolló un webtoon animado en After Effects, complementado con material audiovisual generado mediante herramientas de inteligencia artificial. \n\n **Proyecto individual - 2025**"
     },
     "GUP": {
@@ -52,11 +53,11 @@
         "cat3": "Videojuegos"
     },
     "PP": {
-        "title1": "Sombras del secreto",
-        "title2": "Orquesta Corear",
+        "title1": "Musicalización de Escenas",
+        "title2": "El Silbón, diseño sonoro y musicalización de videojuego",
         "title3": "Torre Blanca Club de Ajedrez",
-        "descrip1": "Cortometraje en vídeo 360.\n\n_**Se recomienda usar auriculares**_",
-        "descrip2": "Mezcla Inmersiva en ambisonic.\n\n_**Se recomienda usar auriculares**_",
-        "descrip3": "Logo sonoro y animación para el club social de ajedrez _Torre Blanca_."
+        "descrip1": "Ejercicio de _film scoring_ dentro del contexto de taller de creación sonora.\n\nSu elaboración consistió en realizar un análisis de funciones identificando los _hit points_ que permitieran resaltar la narrativa audiovisual.",
+        "descrip2": "Mezcla Inmersiva utilizando _ambisonic_ del concierto de la orquesta Corear _Undertale: Symphony Suite_.\n\n_**Se recomienda usar auriculares**_",
+        "descrip3": "Diseño sonoro y animación del nuevo logo para el rebranding del club social de ajedrez _Torre Blanca_.\n\nProyecto desarrollado como parte de la asignatura Diseño e Imagen de Marcas, con el objetivo de crear un diferencial emocional que acerque nuevamente la marca a un público joven."
     }
 }

@@ -90,6 +90,7 @@ body, html {
   font-weight: bold;
   margin-bottom: 0.5rem;
   color: #c9ada7;
+  text-shadow: 2px 4px 6px #22223b;
 }
 
 .banner-text p {
@@ -97,6 +98,7 @@ body, html {
   z-index: 1; /* Asegura que el texto esté encima del video */
   margin-bottom: 1rem;
   font-size: 1.2rem;
+  text-shadow: 2px 4px 6px#22223b;
 }
 
 .button {
@@ -126,6 +128,7 @@ body, html {
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
+  text-shadow: 2px 4px 6px #4a4e69;
 }
 
 .section-grid {

@@ -28,6 +28,7 @@
         "TCS1": "This project stands out for its creation of a sound design that evokes an emotional atmosphere, complemented by images that align with the narrative. It is inspired by the poem “Hombre preso que mira a su hijo” by Mario Benedetti, from which several excerpts are used alongside a soundtrack and sound effects, representing the emotional and historical concept conveyed through footage captured at the Parque de la Memoria and sections of the feature film La Noche de los Lápices by Héctor Olivera.\n\n **Group project – 2022** \n\n_Main roles: sound design, editing and montage, scriptwriting, performance as mandolin player, filming of original shots, mixing and mastering._",
         "TCS5": "First approach to the creation, sound design and music scoring of a video game.In this project, immersive audio is explored for interactive and virtual reality content,non-linear audio, non-linear music, development of virtual and immersive spaces, and the spatialization of audio in virtual and immersive 3D exploration environments. Implementing the use of tools such as Unity and Wwise. It is inspired by a Venezuelan legend known as El Silbón, within the horror genre.\n\n **Individual project – 2024**",
         "PM2": "This project covered resources, tools, and skills for producing an online musical event under three main themes: Britpop, Surrealism, and Solidarity. Inspired by the album Yellow Submarine by The Beatles, the aim was to connect music with surrealist art. The event was framed as a fundraising and support initiative for the Brincar Foundation, which provides guidance and support for people within the autism spectrum.\n\n **Group project – 2023** \n\n _Main roles: producer, coordinator, screenwriter, photographer, editor, co-art director, and general director._",
+        "Anim1": "Integrated project developed within the Animation I course. The project involved designing a character and its environment based on the song \"Yerbatero\" by Juanes, followed by the creation of a rhythmic animation with a cohesive narrative. Conceptually, the project combines the connotations of the term _yerbatero_: on one hand, its meaning in Colombia, linked to healing knowledge and mysticism; and on the other, its significance in Argentina, associated with the preparation of yerba mate. The sound design was also developed to actively enhance and support the narrative.\n\n**Individual Project – 2023**",
         "Anim2": "This proposal focuses on rebranding by creating an emotional differential that reconnects the brand with a young audience, incorporating elements present in their current modes of entertainment. The work includes the variation and animation of the event logo, the creation of a sound logo, music scoring, and sound design. Additionally, an animated webtoon was developed in After Effects, complemented with audiovisual material generated using artificial intelligence tools. \n\n **Individual project – 2025**"
     },
     "GUP": {
@@ -52,11 +53,11 @@
         "cat3": "Video Games"
     },
     "PP": {
-        "title1": "Shadows of the Secret",
-        "title2": "Orchestra Corear",
+        "title1": "Scene Scoring",
+        "title2": "El Silbón,videogame sound design and music scoring",
         "title3": "Torre Blanca Chess Club",
-        "descrip1": "360° video short film.\n\n_**Headphones are recommended**_",
-        "descrip2": "Immersive Mix.\n\n_**Headphones are recommended**_",
-        "descrip3": "Sound logo and animation for the chess social club _Torre Blanca_."
+        "descrip1": "Film scoring exercise developed within the context of a sound creation workshop.\n\nIts development involved conducting a functional analysis, identifying the hit points that would enhance the audiovisual narrative.",
+        "descrip2": "Immersive mix using ambisonics of the Corear Orchestra concert _Undertale: Symphony Suite_.\n\n_**Headphones are recommended**_",
+        "descrip3": "Sound design and animation for the new logo as part of the rebranding of the _Torre Blanca_ chess social club.\n\nProject developed as part of the Brand Design and Image course, focused on creating an emotional connection to reengage a younger audience."
     }
 }
