@@ -113,8 +113,9 @@ export default function Portfolio() {
         <div className="project-grid">
           {personalProjectsArray
             .filter(projects => [1, 2, 3].includes(projects.id)) // <- Elije los IDs deseados
-            .map((projects) => (
+            .map((projects, index) => (
               <motion.div
+                onMouseEnter={() => handleMouseEnter(index)}
                 key={projects.id}
                 whileHover={{ scale: 1.05 }}
                 className="project-card"
@@ -191,7 +192,7 @@ export default function Portfolio() {
         <div className="section"><h3 className="about-text">{t("App.formacion")}</h3>
           <h3 className="about-text">Resume</h3>
           <div className="about-text">
-          <a href='./CV/ATS_EN-2026.pdf' target='_blank'>
+          <a href='./CV/GreissyOchoa_ES2026.pdf' target='_blank'>
             <img src="./CV/ATS.png" alt="ATS" width="200" height="150" />
           </a>
           {/* <a href='./CV/CV_EN-2025.pdf' target='_blank'>
