@@ -115,7 +115,7 @@ export default function Portfolio() {
             .filter(projects => [1, 2, 3].includes(projects.id)) // <- Elije los IDs deseados
             .map((projects, index) => (
               <motion.div
-                onMouseEnter={() => handleMouseEnter(index)}
+                // onMouseEnter={() => handleMouseEnter(index)}
                 key={projects.id}
                 whileHover={{ scale: 1.05 }}
                 className="project-card"
