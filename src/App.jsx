@@ -190,7 +190,7 @@ export default function Portfolio() {
           y grabación en una orquesta dedicada a música para videojuegos. */}
         </p>
         <div className="section"><h3 className="about-text">{t("App.formacion")}</h3>
-          <h3 className="about-text">Resume</h3>
+          <h3 className="about-text">CV</h3>
           <div className="about-text">
           <a href='./CV/GreissyOchoa_ES2026.pdf' target='_blank'>
             <img src="./CV/ATS.png" alt="ATS" width="200" height="150" />
