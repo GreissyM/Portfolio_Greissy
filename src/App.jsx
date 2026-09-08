@@ -86,13 +86,13 @@ export default function Portfolio() {
             <source src="/CCK_2024.mp4" type="video/mp4" />
             Tu navegador no soporta la etiqueta video.
           </video> */}
-          <img src="/Foto_Meli2.png" alt="" className="video-bg"/>
+          <img src="/Foto_Meli2.png" alt="" className="video-bg" />
         </div>
 
         <div className="banner-text">
           <h1>{t("App.title")}</h1>
           <p>{t("App.subtitle")}</p>
-          <a href="#personal-Projects" className="button">{t("App.button_1")}</a>
+          <a href="#university-projects" className="button">{t("App.button_1")}</a>
         </div>
       </section>
 
@@ -107,7 +107,7 @@ export default function Portfolio() {
         ))}
       </section> */}
 
-      {/* Proyectos Destacados */}
+      {/* Proyectos Destacados o Proyectos Personales */}
       <section id="personal-Projects" className="section">
         <h2 className="section-title">{t("App.title2")}</h2>
         <div className="project-grid">
@@ -129,8 +129,8 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Galería de audio interactiva */}
-      <section className="section-alt">
+      {/* Galería de audio */}
+      {/* <section className="section-alt">
         <h2 className="section-title">{t("App.title3")}</h2>
         <div className="audio-grid">
           {audioClips.map((clip, index) => (
@@ -144,23 +144,23 @@ export default function Portfolio() {
               <button className="button" onClick={() => handlePlayPause(index)}>
                 {playing === index ? t("App.stopButton") : t("App.playButton")}
               </button>
-              {/* {playing === index && (
+              {playing === index && (
                 <audio src={clip.src} autoPlay onEnded={() => setPlaying(null)} controls />
-              )} */}
+              )}
             </motion.div>
           ))}
-        </div>
+        </div> */}
 
-        {/* Reproductor flotante */}
-        {playing !== null && (
+      {/* Reproductor flotante */}
+      {/* {playing !== null && (
           <div className="audio-player-overlay">
             <button className="close-button" onClick={() => setPlaying(null)}>✕</button>
-            {/* <audio
+            <audio
                 src={audioClips[playing].src}
                 autoPlay
                 onEnded={() => setPlaying(null)}
                 controls
-              /> */}
+              />
 
             <iframe width="100%" height="120" scrolling="no" frameborder="no" allow="autoplay"
               // src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2149512714%3Fsecret_token%3Ds-pYE0chbuG1y&color=%2384a4ec&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
@@ -170,41 +170,63 @@ export default function Portfolio() {
             <span>{audioClips[playing].title}</span>
           </div>
         )}
-      </section>
+      </section> */}
 
       {/* Sobre mí */}
       <section className="section-alt">
         <h2 className="section-title">{t("App.title4")}</h2>
         <p className="about-text">{t("App.aboutMe")}
-          {/* Greissy es una diseñadora sonora y músico especializada en transformar ideas en piezas
-          sonoras para cine, videojuegos y publicidad. Su musicalidad y creación de experiencias
-          sonoras inmersivas se caracterizan por su personalidad y engagement. Con formación en
-          creación sonora y técnicas en sonido y grabación, logra una mirada sensible e interdisciplinaria
-          combinando arte, tecnología y narrativa para construir paisajes sonoros memorables. Su trabajo se
-          enfoca en el diseño sonoro para videojuegos, entornos interactivos y cine, con un enfoque
-          estético que equilibra emoción, funcionalidad y profundidad narrativa. Maneja herramientas digitales
-          acordes con la disciplina enfocada principalmente en Reaper, e incurre más allá dominando herramientas
-          visuales como Premiere, After Effect, Krita, entre otros. Su formación musical inició a temprana edad,
-          permitiéndole experimentar con distintos instrumentos y profesionalizarse en el piano y la mandolina,
-          desempeñándose como ejecutante en agrupaciones y orquestas. Actualmente participa como técnico de sonido
-          y grabación en una orquesta dedicada a música para videojuegos. */}
+          {/* Greissy es una diseñadora sonora y música especializada en transformar ideas en experiencias y piezas sonoras para cine, videojuegos y publicidad. 
+          Su trabajo se caracteriza por una mirada creativa y sensible, orientada a la construcción de experiencias sonoras inmersivas con identidad y capacidad 
+          de conectar con la audiencia.
+
+          Cuenta con formación en Creación Sonora y en técnicas de Sonido y Grabación, lo que le permite desarrollar una perspectiva interdisciplinaria que combina 
+          arte, tecnología y narrativa para construir paisajes sonoros memorables. Su trabajo se enfoca principalmente en el diseño sonoro para videojuegos, entornos 
+          interactivos y producciones audiovisuales, desde un enfoque estético que equilibra emoción, funcionalidad y profundidad narrativa.
+
+          Maneja herramientas especializadas como Reaper y iZotope, así como diversos plugins para la edición, mezcla y masterización de proyectos de audio. Además, 
+          complementa su trabajo sonoro con el dominio de herramientas visuales como Premiere Pro, After Effects y Krita, entre otras, ampliando sus posibilidades dentro 
+          de los procesos creativos y audiovisuales.
+
+          Su formación musical comenzó a temprana edad, lo que le permitió explorar distintos instrumentos y posteriormente profesionalizarse como intérprete de piano y 
+          mandolina. Se ha desempeñado como ejecutante en diversas agrupaciones y orquestas, experiencia que ha enriquecido su comprensión de la música y del trabajo colectivo.
+
+          Actualmente, participa como asistente de producción técnica y operadora de sonido y grabación en Corear, una orquesta dedicada a la interpretación de música para 
+          videojuegos. Asimismo, forma parte de la sección de Mandolinas I en un nuevo proyecto orientado a promover la difusión y el desarrollo de los ensambles orquestales 
+          de mandolinas en la ciudad de Buenos Aires, Argentina.*/}
         </p>
         <div className="section"><h3 className="about-text">{t("App.formacion")}</h3>
-          <h3 className="about-text">CV</h3>
-          <div className="about-text">
-          <a href='./CV/GreissyOchoa_ES2026.pdf' target='_blank'>
-            <img src="./CV/ATS.png" alt="ATS" width="200" height="150" />
-          </a>
-          {/* <a href='./CV/CV_EN-2025.pdf' target='_blank'>
-            <img src="./CV/CV.png" alt="CV" width="200" height="150" />
-          </a> */}
+          <h3 className="cv-container">CV</h3>
+          <h4 className="cv-container"><div>Español</div><div>English</div></h4>
+          <div className="cv-container">
+            <a href='./CV/Greissy Ochoa_Lic en Creación Sonora.pdf' target='_blank'>
+              <img src="./CV/icon_cv.png" alt="ATS" width="70" height="60" /></a>
+            <a href='./CV/GreissyOchoa_SoundDesign.pdf' target='_blank'>
+              <img src="./CV/icon_cv.png" alt="CV" width="70" height="60" /></a>
           </div>
         </div>
 
-      </section>
+        {/* Carrusel de imágenes de reconocimientos*/}
+        <div className="recognition">
+          <Slider dots={false} infinite={true} speed={5000} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={5000} arrows={false}>
+
+            {Array.from({ length: 16 }, (_, index) => (
+              <div key={index}>
+                <img
+                  src={`./Reconocimientos/${index + 1}.jpg`}
+                  className="project-image"
+                  alt={`Reconocimiento ${index + 1}`}
+                />
+              </div>
+            ))}
+
+          </Slider>
+        </div>
+
+      </section >
 
       {/* Portfolio Universitario */}
-      <section id="university-projects" className="section">
+      < section id="university-projects" className="section" >
         <h2 className="section-title">{t("App.tittle5")}</h2>
         <div className="project-grid">
           {universityProjects
@@ -234,20 +256,22 @@ export default function Portfolio() {
         </div>
 
         {/* MODAL */}
-        {isModalOpen && (
-          <div className="modal-overlay">
-            <div className="modal-content">
-              <button onClick={closeModal} className="close-button">✕</button>
-              <iframe
-                src={selectedVideo}
-                frameBorder="0"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-                title="Proyecto"
-              />
+        {
+          isModalOpen && (
+            <div className="modal-overlay">
+              <div className="modal-content">
+                <button onClick={closeModal} className="close-button">✕</button>
+                <iframe
+                  src={selectedVideo}
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  title="Proyecto"
+                />
+              </div>
             </div>
-          </div>
-        )}
+          )
+        }
 
         <section className="section">
           <div className="contact-text">
@@ -256,19 +280,20 @@ export default function Portfolio() {
           </div>
         </section>
 
-      </section>
+      </section >
 
       {/* Contacto */}
-      <section className="section">
+      < section className="section" >
         {/* <h2 className="section-title">{t("App.title6")}</h2> */}
-        <div className="contact-text">
+        < div className="contact-text" >
           <p>{t("App.mensaje")}</p>
           <button className="button" onClick={() => setShowForm(true)}>{t("App.button2")}</button>
-        </div>
+        </div >
 
-        {showForm && <ContactForm onClose={() => setShowForm(false)} />}
+        {showForm && <ContactForm onClose={() => setShowForm(false)} />
+        }
 
-      </section>
+      </section >
 
       <footer>
         <div className="section-foot">
@@ -278,6 +303,6 @@ export default function Portfolio() {
         </div>
       </footer>
 
-    </div>
+    </div >
   );
 }

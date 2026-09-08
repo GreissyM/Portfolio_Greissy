@@ -23,8 +23,10 @@ export const universityProjects = [
     // year: "2022",
     videoUrl: "https://www.youtube.com/embed/xZUo3UF-Yi0",
     image: [
-      "/nuncaOlvides/projectU-1.png",
-      "/nuncaOlvides/projectU-2.png",
+      "/1_nuncaOlvides/projectU-1.png",
+      "/1_nuncaOlvides/projectU-2.png",
+      "/1_nuncaOlvides/projectU-3.png",
+      "/1_nuncaOlvides/projectU-4.png",
     ],
   },
   // {
@@ -207,25 +209,25 @@ export const universityProjects = [
   //     "/pagConstr.png",
   //   ],
   // },
-  // {
-  //   id: 17,
-  //   title: "El Silbón",
-  //   asignature: "\nTaller de Creación Sonora V \n(Sound Creation Workshop V)",
-  //   description: "UP.TCS5",
-  //   // `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
-  //   // En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
-  //   // audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
-  //   // de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
-  //   // como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
-  //   // \n\n**Proyecto individual - 2024**`,
-  //   year: "2025",
-  //   videoUrl: "https://www.youtube.com/embed/QE1mvikSfno?si=I2c3H7eOgDOdHPc_",
-  //   image: [
-  //     "/elSilbon/Sil-1.png",
-  //     "/elSilbon/Sil-2.png",
-  //     "/elSilbon/Sil-3.png",
-  //   ],
-  // },
+  {
+    id: 2, //17,
+    title: "El Silbón",
+    asignature: "\nTaller de Creación Sonora V \n(Sound Creation Workshop V)",
+    description: "UP.TCS5",
+    // `Primer acercamiento a la realización, diseño sonoro y musicalización de un videojuego. 
+    // En este proyecto se explora audio inmersivo para contenido interactivo y de realidad virtual,
+    // audio no-lineal, música no lineal, desarrollo de espacios virtuales e inmersivos y la espacialización 
+    // de audio en los entornos virtuales e inmersivos de exploración 3D. Implementando el manejo de herramientas 
+    // como Unity y Wwise. Se inspira en una leyenda venezolana conocida como el silbón, dentro del género terror.\n\n
+    // \n\n**Proyecto individual - 2024**`,
+    year: "2025",
+    videoUrl: "https://www.youtube.com/embed/QE1mvikSfno?si=I2c3H7eOgDOdHPc_",
+    image: [
+      "/17_elSilbon/Sil-1.png",
+      "/17_elSilbon/Sil-2.png",
+      "/17_elSilbon/Sil-3.png",
+    ],
+  },
   // {
   //   id: 18,
   //   title: "...",
@@ -287,7 +289,7 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 2,
+    id: 3, //23
     title: "Viajeros del Submarino",
     asignature: "\n Producción Musical II \n (Musical Production II)",
     description: "UP.PM2",
@@ -302,13 +304,13 @@ export const universityProjects = [
     year: "2023",
     videoUrl: "https://www.youtube.com/embed/hL6A8o8mKPI?si=t82wqCYG8kGCLSYE",
     image: [
-      "/viajerosSubmarino/VS-1.png",
-      "/viajerosSubmarino/VS-2.png",
-      "/viajerosSubmarino/VS-3.png",
-      "/viajerosSubmarino/VS-4.png",
-      "/viajerosSubmarino/VS-5.png",
-      "/viajerosSubmarino/VS-6.png",
-      "/viajerosSubmarino/VS-7.png",
+      "/23_viajerosSubmarino/VS-1.png",
+      "/23_viajerosSubmarino/VS-2.png",
+      "/23_viajerosSubmarino/VS-3.png",
+      "/23_viajerosSubmarino/VS-4.png",
+      "/23_viajerosSubmarino/VS-5.png",
+      "/23_viajerosSubmarino/VS-6.png",
+      "/23_viajerosSubmarino/VS-7.png",
     ],
   },
   // {
@@ -336,7 +338,7 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 3,
+    id: 4, //26
     title: "Juanpi, el pingüino yerbatero",
     asignature: "Animación I \n (Principles of Animation I)", //Animación I
     description: "UP.Anim1",
@@ -344,10 +346,10 @@ export const universityProjects = [
     year: "2023",
     videoUrl: "https://www.youtube.com/embed/ILhYDwaP7Oc?si=wJOXkmYLavkNBT8F&amp;start=4",
     image: [
-      "/Anim_I/JuanPingüi1.png",
-      "/Anim_I/JuanPingüi2.png",
-      "/Anim_I/JuanPingüi3.png",
-      "/Anim_I/JuanPingüi4.png",
+      "/26_Anim_I/JuanPingüi1.png",
+      "/26_Anim_I/JuanPingüi2.png",
+      "/26_Anim_I/JuanPingüi3.png",
+      "/26_Anim_I/JuanPingüi4.png",
     ],
   },
   // {
@@ -387,7 +389,7 @@ export const universityProjects = [
   //   ],
   // },
   {
-    id: 4, //30
+    id: 5, //30
     title: "Baires Rocks Mandolin Challenge",
     asignature: "Animación II \n (Principles of Animation II)",
     description: "UP.Anim2",
@@ -395,13 +397,13 @@ export const universityProjects = [
     year: "2023",
     videoUrl: "https://www.youtube.com/embed/LlF2zcGq7pY?si=aJXUgt1mhnwkYtA6",
     image: [
-      "/Anim_II/BR.png",
-      "/Anim_II/1.png",
-      "/Anim_II/4.png",
-      "/Anim_II/5.png",
-      "/Anim_II/6.png",
-      "/Anim_II/7.png",
-      "/Anim_II/8.png",
+      "/30_Anim_II/BR.png",
+      "/30_Anim_II/1.png",
+      "/30_Anim_II/4.png",
+      "/30_Anim_II/5.png",
+      "/30_Anim_II/6.png",
+      "/30_Anim_II/7.png",
+      "/30_Anim_II/8.png",
     ],
   },
   // {

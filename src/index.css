@@ -199,6 +199,18 @@ body, html {
   white-space: pre-line;
 }
 
+.recognition {
+  background-color: var(--accent-blue);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  white-space: pre-line;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .description {
  text-align: justify;
  font-size: 90%;
@@ -453,4 +465,9 @@ body, html {
   background-color: var(--accent-purple);
   transform: scale(1.05);
   color: var(--highlight);
+}
+.cv-container {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px; /* espacio entre imágenes */
 }
