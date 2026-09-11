@@ -201,7 +201,7 @@ export default function Portfolio() {
           <div className="cv-container">
             <a href='./CV/Greissy Ochoa_Lic en Creación Sonora.pdf' target='_blank'>
               <img src="./CV/icon_cv.png" alt="ATS" width="70" height="60" /></a>
-            <a href='./CV/GreissyOchoa_SoundDesign.pdf' target='_blank'>
+            <a href='./CV/Greissy Ochoa_BA Sound Creation.pdf' target='_blank'>
               <img src="./CV/icon_cv.png" alt="CV" width="70" height="60" /></a>
           </div>
         </div>
