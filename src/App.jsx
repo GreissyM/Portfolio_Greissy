@@ -92,7 +92,7 @@ export default function Portfolio() {
         <div className="banner-text">
           <h1>{t("App.title")}</h1>
           <p>{t("App.subtitle")}</p>
-          <a href="#university-projects" className="button">{t("App.button_1")}</a>
+          <a href="#personal-Projects" className="button">{t("App.button_1")}</a>
         </div>
       </section>
 
