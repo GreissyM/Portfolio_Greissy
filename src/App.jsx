@@ -208,6 +208,7 @@ export default function Portfolio() {
 
         {/* Carrusel de imágenes de reconocimientos*/}
         <div className="recognition">
+          <h2 className="section-title">{t("App.title4A")}</h2>
           <Slider dots={false} infinite={true} speed={5000} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={5000} arrows={false}>
 
             {Array.from({ length: 16 }, (_, index) => (
