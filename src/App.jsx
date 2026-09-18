@@ -300,7 +300,7 @@ export default function Portfolio() {
         <div className="section-foot">
           <a href="http://www.linkedin.com/in/melissa-ochoa" target="_blank" rel="noopener noreferrer" className="card-foot"><img src="/iconos Social Media/linkedin-socials-social-media-icon.png" alt="linkedin" /></a>
           <div><p className="contact-text">{t("App.footerText")}</p></div>
-          <a href="https://www.instagram.com/portfolio_ochoa/" target="_blank" rel="noopener noreferrer" className="card-foot"><img src="/iconos Social Media/instagram-socials-social-media-icon.png" alt="insta" /></a>
+          <a href="https://www.instagram.com/greissy.audio/" target="_blank" rel="noopener noreferrer" className="card-foot"><img src="/iconos Social Media/instagram-socials-social-media-icon.png" alt="insta" /></a>
         </div>
       </footer>
 
