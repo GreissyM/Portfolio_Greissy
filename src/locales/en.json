@@ -9,6 +9,7 @@
         "spec4": "Audio Branding",
         "title2": "Featured Projects",
         "title3": "Audio Gallery",
+        "title3A": "Activities and Collaborations",
         "subtitle2": "Category: ",
         "playButton": "Play",
         "stopButton": "Stop",
@@ -52,6 +53,11 @@
         "cat1": "Music Production",
         "cat2": "Film",
         "cat3": "Video Games"
+    },
+    "Act": {
+        "Actividad1": "Podcast's Club",
+        "Actividad2": "Corear Orchestra",
+        "Actividad3": "Buenos Aires Mandolin Orchestra"
     },
     "PP": {
         "title1": "Scene Scoring",

@@ -9,6 +9,7 @@
         "spec4": "Branding Sonoro",
         "title2": "Proyectos Destacados",
         "title3": "Galería de Audio",
+        "title3A": "Actividades y Colaboraciones",
         "subtitle2": "Categoría: ",
         "playButton": "Reproducir",
         "stopButton": "Detener",
@@ -52,6 +53,11 @@
         "cat1": "Producción Musical",
         "cat2": "Cine",
         "cat3": "Videojuegos"
+    },
+    "Act": {
+        "Actividad1": "Club de Podcast",
+        "Actividad2": "Orquesta Corear",
+        "Actividad3": "Orquesta de Mandolinas de Buenos Aires"
     },
     "PP": {
         "title1": "Musicalización de Escenas",

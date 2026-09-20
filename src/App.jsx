@@ -10,8 +10,9 @@ import { personalProjectsArray } from './data/personalProjectsArray.jsx';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import InstagramEmbed from "./components/InstagramEmbed.jsx";
+import InstagramPosts from "./components/InstagramPosts.jsx";
 import ContactForm from "./components/ContactForm.jsx"; // ajusta la ruta si es necesario
-
 import ReactMarkdown from 'react-markdown';
 
 export default function Portfolio() {
@@ -172,6 +173,32 @@ export default function Portfolio() {
         )}
       </section> */}
 
+      {/* Actividades y Colaboraciones */}
+      <section className="section-alt">
+        <h2 className="section-title">{t("App.title3A")}</h2>
+        <div className="audio-grid">
+          {/* Club de Podcast */}
+          <div className="audio-card">
+            <h3 className="section-title">{t("Act.Actividad1")}</h3>
+            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }}
+              width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; 
+            encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+              src="https://open.spotify.com/embed/episode/5zDlYWbYb81S6ltEcBBbV1?utm_source=generator&t=0&si=29b2d68bbca34c46">
+            </iframe>
+          </div>
+          {/* Corear */}
+          <div className="audio-card">
+            <h3 className="section-title">{t("Act.Actividad2")}</h3>
+            <InstagramEmbed posts={InstagramPosts.actividad2} />
+          </div>
+          {/* Orquesta de Mandolinas */}
+          <div className="audio-card">
+            <h3 className="section-title">{t("Act.Actividad3")}</h3>
+            <InstagramEmbed posts={InstagramPosts.actividad3} />
+          </div>
+        </div>
+      </section>
+
       {/* Sobre mí */}
       <section className="section-alt">
         <h2 className="section-title">{t("App.title4")}</h2>
@@ -207,8 +234,8 @@ export default function Portfolio() {
         </div>
 
         {/* Carrusel de imágenes de reconocimientos*/}
+        <h2 className="section-title">{t("App.title4A")}</h2>
         <div className="recognition">
-          <h2 className="section-title">{t("App.title4A")}</h2>
           <Slider dots={false} infinite={true} speed={5000} slidesToShow={1} slidesToScroll={1} autoplay={true} autoplaySpeed={5000} arrows={false}>
 
             {Array.from({ length: 16 }, (_, index) => (

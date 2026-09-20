@@ -20,6 +20,15 @@ div {
   padding: 2rem;
 }
 
+/* Celulares */
+@media (max-width: 768px) {
+  .project-grid-extended {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+}
+
 .more-projects-button,
 .go-back-button {
   display: inline-block;
@@ -37,3 +46,4 @@ div {
 .go-back-button:hover {
   background-color: #555;
 }
+
