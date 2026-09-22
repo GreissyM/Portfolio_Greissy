@@ -197,6 +197,8 @@ body, html {
   text-align: center;
   transition: transform 0.3s ease-in-out;
   white-space: pre-line;
+  max-height: 600px;
+  overflow-y: auto
 }
 
 .recognition {

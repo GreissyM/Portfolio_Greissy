@@ -12,6 +12,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import InstagramEmbed from "./components/InstagramEmbed.jsx";
 import InstagramPosts from "./components/InstagramPosts.jsx";
+import SpotifyCarousel from "./components/SpotifyCarousel.jsx";
+import SpotifyEpisodes from "./components/SpotifyEpisodes.jsx";
 import ContactForm from "./components/ContactForm.jsx"; // ajusta la ruta si es necesario
 import ReactMarkdown from 'react-markdown';
 
@@ -180,12 +182,14 @@ export default function Portfolio() {
           {/* Club de Podcast */}
           <div className="audio-card">
             <h3 className="section-title">{t("Act.Actividad1")}</h3>
-            <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }}
-              width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; 
-            encrypted-media; fullscreen; picture-in-picture" loading="lazy"
-              src="https://open.spotify.com/embed/episode/5zDlYWbYb81S6ltEcBBbV1?utm_source=generator&t=0&si=29b2d68bbca34c46">
-            </iframe>
+            <SpotifyCarousel episodes={SpotifyEpisodes.podcastClub} />
           </div>
+          {/* <iframe data-testid="embed-iframe" style={{ borderRadius: "12px" }}
+              width="100%" height="152" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; 
+                encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+              src="https://open.spotify.com/embed/episode/5zDlYWbYb81S6ltEcBBbV1?utm_source=generator&t=0&si=29b2d68bbca34c46">
+            </iframe> */}
+
           {/* Corear */}
           <div className="audio-card">
             <h3 className="section-title">{t("Act.Actividad2")}</h3>
