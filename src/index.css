@@ -197,10 +197,18 @@ body, html {
   text-align: center;
   transition: transform 0.3s ease-in-out;
   white-space: pre-line;
+}
+.acti-card {
+  background-color: var(--accent-blue);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  white-space: pre-line;
   max-height: 600px;
   overflow-y: auto
 }
-
 .recognition {
   background-color: var(--accent-blue);
   padding: 1rem;

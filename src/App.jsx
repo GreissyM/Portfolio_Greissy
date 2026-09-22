@@ -180,7 +180,7 @@ export default function Portfolio() {
         <h2 className="section-title">{t("App.title3A")}</h2>
         <div className="audio-grid">
           {/* Club de Podcast */}
-          <div className="audio-card">
+          <div className="acti-card">
             <h3 className="section-title">{t("Act.Actividad1")}</h3>
             <SpotifyCarousel episodes={SpotifyEpisodes.podcastClub} />
           </div>
@@ -191,12 +191,12 @@ export default function Portfolio() {
             </iframe> */}
 
           {/* Corear */}
-          <div className="audio-card">
+          <div className="acti-card">
             <h3 className="section-title">{t("Act.Actividad2")}</h3>
             <InstagramEmbed posts={InstagramPosts.actividad2} />
           </div>
           {/* Orquesta de Mandolinas */}
-          <div className="audio-card">
+          <div className="acti-card">
             <h3 className="section-title">{t("Act.Actividad3")}</h3>
             <InstagramEmbed posts={InstagramPosts.actividad3} />
           </div>
